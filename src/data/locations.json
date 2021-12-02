@@ -1,11 +1,20 @@
 [
     {
         "id": 1,
-        "latitude": 32.8998,
-        "longitude": 97.0403,
+        "latitude": 44.668380,
+        "longitude": -88.238800,
         "landmark_city": "Dallas",
         "landmark_state": "Texas",
         "landmark_country": "USA",
-        "landmark_name": "DFW International Airport American Airlines Terminal E Irving, Texas 75261"
+        "landmark_name": "449 Flora St."
+    },
+    {
+        "id": 2,
+        "latitude": 32.8998,
+        "longitude": -97.046204,
+        "landmark_city": "Irving",
+        "landmark_state": "Texas",
+        "landmark_country": "USA",
+        "landmark_name": "DFW International Airport American Airlines Terminal E"
     }
 ]

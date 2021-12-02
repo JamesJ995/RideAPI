@@ -2,9 +2,9 @@
     {
         "id": 1,
         "type": "Amex01",
-        "base_rate": "5/mile",
+        "base_rate": "3.5/mile",
         "tip_amount": 10,
-        "total_amount": 30,
+        "total_amount": 80,
         "transaction_id": 1
     }
 ]

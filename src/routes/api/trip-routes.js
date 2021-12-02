@@ -17,4 +17,20 @@ router.get('/', (req, res) => {
   }
 });
 
+router.post('/', (req, res) => {
+  let trip = req.body;
+  trips.push(trip);
+  try {
+    fs.writeFile(
+      __dirname + '/' + '../../data/trips.json',
+      JSON.stringify(trips),
+      () => {
+        res.status(200).json(trips);
+      }
+    );
+  } catch (err) {
+    res.status(400).end(err);
+  }
+});
+
 module.exports = router;

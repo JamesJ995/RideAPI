@@ -1,9 +1,10 @@
 [
     {
         "id": 1,
-        "address": "449 Fiora St. Dallas, Texas 75201",
+        "address": "449 Flora St. Dallas, Texas 75201",
         "customer_name": "Luke Smith",
         "customer_email": "Luke@Smith.com",
         "customer_phone_number": "555-2323"
     }
 ]
+
