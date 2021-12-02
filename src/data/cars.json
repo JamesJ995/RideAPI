@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "driver_id": 1,
+        "car_make": "Volkswagon",
+        "car_model": "Atlas",
+        "car_color": "Pure White"
+    },
+    {
+        "id": 2,
+        "driver_id": 2,
+        "car_make": "Volkswagon",
+        "car_model": "Atlas",
+        "car_color": "Pure White"
+    }
+]

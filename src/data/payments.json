@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "type": "Card",
+        "base_rate": "5/mile",
+        "tip_amount": 10,
+        "total_amount": 30,
+        "transaction_id": 1
+    }
+]

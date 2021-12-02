@@ -1,1 +1,14 @@
-[{"id":1,"first_name":"John"},{"id":6,"first_name":"Jane"},{"id":6,"first_name":"Jane"},{"id":6,"first_name":"Jane"}]
+[
+    {
+        "id": 1,
+        "driver_name": "John Smith",
+        "phone_number": "555-1234",
+        "current_car_id": 1
+    },
+    {
+        "id": 2,
+        "first_name": "Jane Doe",
+        "phone_number": "555-4321",
+        "current_car_id": 2
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "customer_name": "Luke Smith",
+        "customer_email": "Luke@Smith.com",
+        "customer_phone_number": "555-2323"
+    }
+]

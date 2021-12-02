@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "driver_id": "1",
+        "customer_id": "Volkswagon",
+        "car_id": "Atlas",
+        "device_id": "Pure White",
+        "start_location_id": 1,
+        "end_location_id": 2,
+        "trip_requested_timestamp": "12:34PM",
+        "trip_start_timestamp": "12:40PM",
+        "trip_end_timestamp": "1:00PM",
+        "trip_notes": "Can you drop me off at AA International Bad Drop please?",
+        "wait_time": "6 minutes",
+        "payment_id": 1,
+        "trip_status": 2,
+        "current_vibe": "Vaporwave Beats"
+    }
+]
