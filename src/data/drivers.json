@@ -1,14 +1,18 @@
 [
     {
         "id": 1,
-        "driver_name": "John Smith",
+        "driver_name": "Steph Festiculma",
         "phone_number": "555-1234",
-        "current_car_id": 1
+        "current_car_id": 1,
+        "about_driver": "Steph Festiculma is a graduate of Parsons New School in New York and fluent in Portugeuse, Spanish and English. Steph has been driving with Lato since 2018.",
+        "driver_photo": "driver-photo-goes-here"
     },
     {
         "id": 2,
         "first_name": "Jane Doe",
         "phone_number": "555-4321",
-        "current_car_id": 2
+        "current_car_id": 2,
+        "about_driver": "Jane Doe is a very common name",
+        "driver_photo": "driver-photo-goes-here"
     }
 ]

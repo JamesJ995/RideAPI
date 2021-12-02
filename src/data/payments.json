@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "type": "Card",
+        "type": "Amex01",
         "base_rate": "5/mile",
         "tip_amount": 10,
         "total_amount": 30,

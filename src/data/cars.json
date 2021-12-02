@@ -2,6 +2,7 @@
     {
         "id": 1,
         "driver_id": 1,
+        "car_name": "Alto 09",
         "car_make": "Volkswagon",
         "car_model": "Atlas",
         "car_color": "Pure White"
@@ -9,6 +10,7 @@
     {
         "id": 2,
         "driver_id": 2,
+        "car_name": "Alto 10",
         "car_make": "Volkswagon",
         "car_model": "Atlas",
         "car_color": "Pure White"

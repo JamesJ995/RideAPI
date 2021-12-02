@@ -3,6 +3,9 @@
         "id": 1,
         "latitude": 32.8998,
         "longitude": 97.0403,
-        "landmark_name": "DFW Airport"
+        "landmark_city": "Dallas",
+        "landmark_state": "Texas",
+        "landmark_country": "USA",
+        "landmark_name": "DFW International Airport American Airlines Terminal E Irving, Texas 75261"
     }
 ]
