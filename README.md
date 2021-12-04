@@ -2,6 +2,10 @@
 
 Simple NodeJS API for a ride service business. Built with express. Uses filesystem to read and write .json files as a mock database.
 
+# Usage
+> navigate to the src directory and use "npm install" to install the needed packages
+> from the same directory use "node server.js" to start the app
+
 # API Documentation
 GET All for all tables at appropriate urls:
 >GET http://localhost:3000/api/trips
