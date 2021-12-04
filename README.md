@@ -3,6 +3,33 @@
 Simple NodeJS API for a ride service business. Built with express. Uses filesystem to read and write .json files as a mock database.
 
 # API Documentation
+GET All for all tables at appropriate urls:
+>GET http://localhost:3000/api/trips
+>GET http://localhost:3000/api/cars
+>GET http://localhost:3000/api/customers
+>GET http://localhost:3000/api/documents
+>GET http://localhost:3000/api/drivers
+>GET http://localhost:3000/api/payments
+>GET http://localhost:3000/api/locations
+
+GET by ID for all tables at appropriate urls:
+>GET http://localhost:3000/api/trips/1
+>GET http://localhost:3000/api/trips/2
+>etc.
+
+POST to create a new driver, requires json request body:
+>POST http://localhost:3000/api/drivers
+
+PUT to add or update trip note and or vibe, requires json request body:
+>PUT http://localhost:3000/api/trips/1 (id)
+- example request body:
+```yaml
+{
+	"trip_notes":  "please drop me off at baggage claim",
+	"current_vibe": "Jazz Vibes"
+}
+```
+>Some example Usage:
 ```yaml
 GET http://localhost:3000/api/drivers
 Content-Type: application/json
