@@ -17,4 +17,20 @@ router.get('/', (req, res) => {
   }
 });
 
+router.get("/:id", (req, res) => {
+  const targetID = req.params.id;
+  console.log(req.params.id); 
+  let getCustomer;
+  for (let i = 0; i < customers.length; i++) {
+    if (customers[i].id == targetID) {
+      getCustomer = customers[i];
+    }
+  }
+  try {
+    res.status(200).json(getCustomer);
+  } catch (err) {
+    res.status(400).end(err);
+  }
+});
+
 module.exports = router;

@@ -17,4 +17,20 @@ router.get('/', (req, res) => {
   }
 });
 
+router.get("/:id", (req, res) => {
+  const targetID = req.params.id;
+  console.log(req.params.id); 
+  let getPayment;
+  for (let i = 0; i < payments.length; i++) {
+    if (payments[i].id == targetID) {
+      getPayment = payments[i];
+    }
+  }
+  try {
+    res.status(200).json(getPayment);
+  } catch (err) {
+    res.status(400).end(err);
+  }
+});
+
 module.exports = router;

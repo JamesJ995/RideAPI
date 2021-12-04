@@ -17,6 +17,22 @@ router.get('/', (req, res) => {
   }
 });
 
+router.get("/:id", (req, res) => {
+  const targetID = req.params.id;
+  console.log(req.params.id); 
+  let getDriver;
+  for (let i = 0; i < drivers.length; i++) {
+    if (drivers[i].id == targetID) {
+      getDriver = drivers[i];
+    }
+  }
+  try {
+    res.status(200).json(getDriver);
+  } catch (err) {
+    res.status(400).end(err);
+  }
+});
+
 router.post('/', (req, res) => {
   let driver = req.body;
   drivers.push(driver);
